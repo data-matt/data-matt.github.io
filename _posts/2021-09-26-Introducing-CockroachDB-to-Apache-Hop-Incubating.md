@@ -31,7 +31,7 @@ CockroachDB, the distributed SQL database is not a stranger to a wide variety of
 ---
 ### TLDR for experienced Hop developers
 - CockroachDB is postgres wire compliant, therefore you can setup Postgres as the connection type
-- Hop tries to use multiple active portals, CRDB doesn't support this, therefore avoid limit size in the table input step. 
+- Hop tries to use multiple active portals and CRDB doesn't support this. Therefore avoid limit size in the table input step. 
 
 ---
 ### Tutorial:
