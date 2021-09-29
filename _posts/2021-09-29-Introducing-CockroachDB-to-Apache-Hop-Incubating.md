@@ -64,7 +64,7 @@ Click save icon on the top left and then you can exit the dialog ![image](/asset
 ![image](/assets/images/blogpost1/table-input.png)
 9. Click the "Table Input" step. Then click "Edit".
 ![image](/assets/images/blogpost1/edit.png)
-10. In the dialog, input your SQL select query.
+10. In the dialog, input an SQL select query.
 ![image](/assets/images/blogpost1/Screenshot2021-09-28at13.51.22.png)
 11. Don't forget to click "Preview" to check the SQL statement is correct! For this exercise, the CockroachDB example workload [movr] was used to create the database, tables and fake data. 
 ![image](/assets/images/blogpost1/Screenshot2021-09-28at14.03.32.png)
@@ -76,7 +76,7 @@ Click save icon on the top left and then you can exit the dialog ![image](/asset
 ![image](/assets/images/blogpost1/variable_text_file_output.png)
 15. Click the Fields tab and add fields that you would like to output to CSV. You can use "Get fields" and "Minimal width" to autofill the fields.
 ![image](/assets/images/blogpost1/csvfields.png)
-16. Now save your pipeline ![image](/assets/images/blogpost1/Screenshot2021-09-28at12.36.25.png)
+16. Now save the pipeline ![image](/assets/images/blogpost1/Screenshot2021-09-28at12.36.25.png)
 ![image](/assets/images/blogpost1/Screenshot2021-09-28at14.08.08.png)
 17. Click the play button .
 ![image](/assets/images/blogpost1/Screenshot2021-09-28at14.10.03.png)
