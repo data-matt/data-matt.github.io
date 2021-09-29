@@ -50,13 +50,13 @@ CRDB the distributed SQL database is not a stranger to a wide variety of 3rd par
 2. You will be presented with a blank screen.
 ![image](/assets/images/blogpost1/Screenshot2021-09-28at12.27.03.png)
 3. Lets setup our connection to CockroachDB. 
-  First Click the metadata symbol, this will take you to the metadata pane : ![image](/assets/images/blogpost1/Screenshot2021-09-28at12.29.29.png)
+  First Click the metadata symbol, this will display the metadata pane : ![image](/assets/images/blogpost1/Screenshot2021-09-28at12.29.29.png)
 4. To create a new database connection, Double click "Relational Database Connection".
   ![image](/assets/images/blogpost1/Screenshot2021-09-28at12.29.57.png)
-5. Give the connection a name, add your connection details and remember to click test to verify the connection! Select PostgreSQL as the connection type. CockroachDB is postgres wire compliant, click [here] to find out more.
+5. Give the connection a name, add the connection details and remember to click test to verify the connection! Select PostgreSQL as the connection type. CockroachDB is postgres wire compliant, click [here] to find out more.
   ![image](/assets/images/blogpost1/Screenshot2021-09-28at12.33.53.png)
-Click save, then you can exit the dialog ![image](/assets/images/blogpost1/Screenshot2021-09-28at12.36.25.png)
-6.  Now lets create your first pipeline, click the + in the left hand side menu and then Pipeline.
+Click save icon on the top left and then you can exit the dialog ![image](/assets/images/blogpost1/Screenshot2021-09-28at12.36.25.png)
+6.  Now lets create our first pipeline, click the + in the left hand side menu and then Pipeline.
 ![image](/assets/images/blogpost1/Screenshot2021-09-28at13.48.12.png)
 7. You will be presented with an empty canvas, left click and a dialog box will appear to add a new step.
 ![image](/assets/images/blogpost1/Screenshot2021-09-28at13.49.00.png)
@@ -66,7 +66,7 @@ Click save, then you can exit the dialog ![image](/assets/images/blogpost1/Scree
 ![image](/assets/images/blogpost1/edit.png)
 10. In the dialog, input your SQL select query.
 ![image](/assets/images/blogpost1/Screenshot2021-09-28at13.51.22.png)
-11. Don't forget to click "Preview" to check the SQL statement is correct! For this exercise, the CockroachDB example workload [movr] is used. 
+11. Don't forget to click "Preview" to check the SQL statement is correct! For this exercise, the CockroachDB example workload [movr] was used to create the database, tables and fake data. 
 ![image](/assets/images/blogpost1/Screenshot2021-09-28at14.03.32.png)
 12. Now we will add a text file output and write our results to CSV. You must first, add the "Text file output" step. Link the 2 steps together by holding the shift key + left clicking the "Table Input", then drag from "Table Input" to "Text file output". 
 ![image](/assets/images/blogpost1/Screenshot2021-09-28at14.05.18.png)
