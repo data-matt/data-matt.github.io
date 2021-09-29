@@ -1,8 +1,9 @@
 ---
 title: "Introducing CockroachDB to Apache Hop (Incubating)"
-date: 2021-09-29T11:07:30-04:00
+date: 2021-09-26T16:34:30-04:00
 categories:
   - blog
+  - Hop
 tags:
   - CockroachDB
   - Hop
@@ -13,7 +14,7 @@ tags:
 ---
 
 In this post we'll find out how we can start development on a ETL pipeline whilst working with CockroachDB.
-CockroachDB, the distributed SQL database is not a stranger to a wide variety of 3rd party tools, however there is one tool that enables developers to design, run and debug workflows that everyone can easily use that we have missed. Apache [Hop] is a visual development tool that "aims to facilitate all aspects of data and metadata orchestration".  This is the first in my series on CockroachDB paired with Apache Hop. 
+CRDB the distributed SQL database is not a stranger to a wide variety of 3rd party tools, however there is one tool that enables developers to design, run and debug workflows that everyone can easily use that we have missed. Apache [Hop] is a visual development tool that "aims to facilitate all aspects of data and metadata orchestration".  This is the first in my series on CockroachDB paired with Apache Hop. 
 
 [Hop]: https://hop.apache.org/
 
@@ -27,6 +28,11 @@ CockroachDB, the distributed SQL database is not a stranger to a wide variety of
 ---
 ### Objective: 
 - Read/write to CockroachDB tables with Apache Hop
+
+---
+### TLDR for experienced Hop developers
+- CockroachDB is postgres wire compliant, therefore you can setup Postgres as the connection type.
+- Hop tries to use multiple active portals and CRDB doesn't support this. Therefore avoid limit size in the table input step. 
 
 ---
 ### Tutorial:
