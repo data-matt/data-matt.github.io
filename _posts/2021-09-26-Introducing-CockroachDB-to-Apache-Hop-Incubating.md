@@ -14,7 +14,7 @@ tags:
 ---
 
 In this post we'll find out how we can start development on a ETL pipeline whilst working with CockroachDB.
-CockroachDB, the distributed SQL database is not a stranger to a wide variety of 3rd party tools, however there is one tool that enables developers to design, run and debug workflows that everyone can easily use that we have missed. Apache [Hop] is a visual development tool that "aims to facilitate all aspects of data and metadata orchestration".  This is the first in my series on CockroachDB paired with Apache Hop. 
+CRDB the distributed SQL database is not a stranger to a wide variety of 3rd party tools, however there is one tool that enables developers to design, run and debug workflows that everyone can easily use that we have missed. Apache [Hop] is a visual development tool that "aims to facilitate all aspects of data and metadata orchestration".  This is the first in my series on CockroachDB paired with Apache Hop. 
 
 [Hop]: https://hop.apache.org/
 
