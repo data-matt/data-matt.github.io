@@ -24,6 +24,7 @@ CRDB the distributed SQL database is not a stranger to a wide variety of 3rd par
   - Locally [install] CockroachDB on mac/windows/linux
   - brew install cockroachdb/tap/cockroach
   - Start a free [CockroachCloud] cluster
+- Java 8 - See apache hop for [details].
 
 ---
 ### Objective: 
@@ -132,3 +133,4 @@ I hope this tutorial was enough for you to get started on development with Apach
 [CockroachCloud]: https://cockroachlabs.cloud/signup
 [movr]: https://www.cockroachlabs.com/docs/stable/cockroach-workload.html#movr-workload
 [here]: https://www.cockroachlabs.com/docs/stable/postgresql-compatibility.html
+[details]: https://hop.apache.org/manual/latest/getting-started/hop-download-install.html 
